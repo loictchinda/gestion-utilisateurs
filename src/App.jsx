@@ -1,6 +1,6 @@
-import UserList from "./components/UserList";
 import CounterManager from "./components/counter/CounterManager";
 import MessageManager from "./components/message/MessageManager";
+import UserManager from "./components/users/UserManager";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <h1>Gestion des Utilisateurs</h1>
       <CounterManager />
       <MessageManager />
-      <UserList />
+      <UserManager />
     </div>
   );
 }
