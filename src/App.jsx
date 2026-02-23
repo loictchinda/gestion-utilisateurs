@@ -4,6 +4,7 @@ import MessageManager from "./components/message/MessageManager";
 import UserManager from "./components/users/UserManager";
 import UserFormManager from "./components/form/UserFormManager";
 import UserAgeManager from "./components/age/UserAgeManager";
+import UserDirectory from "./components/directory/UserDirectory";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <UserManager />
       <UserFormManager />
       <UserAgeManager />
+      <UserDirectory />
     </div>
   );
 }
