@@ -7,6 +7,7 @@ import UserAgeManager from "./components/age/UserAgeManager";
 import UserDirectory from "./components/directory/UserDirectory";
 import ProductList from "./components/products/ProductList";
 import ScoreManager from "./components/scores/ScoreManager";
+import PlayerDashboard from "./components/players/PlayerDashboard";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <UserDirectory />
       <ProductList />
       <ScoreManager />
+      <PlayerDashboard />
     </div>
   );
 }
