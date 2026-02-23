@@ -1,6 +1,7 @@
 import CounterManager from "./components/counter/CounterManager";
 import MessageManager from "./components/message/MessageManager";
 import UserManager from "./components/users/UserManager";
+import UserFormManager from "./components/form/UserFormManager";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <CounterManager />
       <MessageManager />
       <UserManager />
+      <UserFormManager />
     </div>
   );
 }

@@ -207,3 +207,86 @@ tr:hover {
   font-style: italic;
   padding: 10px 0;
 }
+
+.user-form-manager {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.user-form-manager h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.user-input label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+
+.user-input input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.user-input input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74,144,226,0.2);
+}
+
+.display-error {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #fff3f3;
+  border-left: 4px solid #e53935;
+  border-radius: 4px;
+  color: #c62828;
+  font-size: 14px;
+}
+
+.success-message {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #f0fff4;
+  border-left: 4px solid #2e7d32;
+  border-radius: 4px;
+  color: #2e7d32;
+  font-size: 14px;
+}
+
+.submit-button {
+  margin-top: 10px;
+}
+
+.btn-active {
+  background-color: #4a90e2;
+  cursor: pointer;
+}
+
+.btn-active:hover {
+  background-color: #357abd;
+}
+
+.btn-disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #888;
+}
+
+.btn-disabled:hover {
+  background-color: #ccc;
+}
