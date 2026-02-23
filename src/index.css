@@ -730,3 +730,143 @@ tr:hover {
   background-color: #ffebee;
   color: #c62828;
 }
+
+.score-manager {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.score-manager h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.score-min-filter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.score-min-filter label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+
+.score-min-filter input {
+  width: 80px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  text-align: center;
+}
+
+.score-min-filter input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74,144,226,0.2);
+}
+
+.stat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background: #fafafa;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #888;
+  font-weight: 500;
+}
+
+.stat-value {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.score-user-list h3 {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.score-user-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.score-user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.score-user-item.above {
+  background-color: #f0f7ff;
+  border-color: #90caf9;
+}
+
+.score-user-item.below {
+  background-color: #fafafa;
+  border-color: #eee;
+  opacity: 0.7;
+}
+
+.score-user-name {
+  font-weight: 600;
+  color: #333;
+  width: 80px;
+}
+
+.score-user-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.score-bar-wrapper {
+  width: 120px;
+  height: 8px;
+  background-color: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.score-bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.score-value {
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+  width: 50px;
+  text-align: right;
+}
